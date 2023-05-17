@@ -38,12 +38,12 @@
 		<h1>Cursor out demo</h1>
 		<p>Move your cursor out of the browser tab to show the popup.</p>
 
-		<div class="overlay" id="overlay"></div>
+		<div class="overlay" st-popup="overlay"></div>
 
-		<div class="hidden-popup" popup="cursor-out">
+		<div class="hidden-popup" st-popup="wrapper">
 			<h2>Popup!</h2>
 			<p>You moved your cursor out of the tab.</p>
-			<span class="close-btn" id="close-btn">Close</span>
+			<span class="close-btn" st-popup="close">Close</span>
 		</div>
 		<script src="popup-hover-out/script.js"></script>
 	</body>

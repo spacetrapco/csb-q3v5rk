@@ -16,11 +16,8 @@ document.addEventListener("DOMContentLoaded", function () {
 		overlay.style.display = "none";
 	}
 
-	// Hide the popup on initial page load
-	hidePopup();
-
 	// Style the overlay and close button with a pointer cursor
-	overlay.style.cursor = "pointer";
+	// overlay.style.cursor = "pointer";
 	closeButton.style.cursor = "pointer";
 
 	// Add click event to all elements with 'st-popup="trigger"' attribute
